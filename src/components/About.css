@@ -1,0 +1,90 @@
+.aboutMe {
+    background-color: #ffff;
+}
+.myInfo {
+    margin-bottom: 110px;
+}
+h1 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 98px;
+    padding: 10px 0 25px 0;
+    color: #272142;
+}
+.information {
+    margin-top: 45px;
+}
+.information h2 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 87px;
+    text-align: start;
+    color:#272142;
+}
+.information p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: start;
+    color: #272142;
+    
+    margin: 40px 0;
+}
+.social-icon {
+    font-size: 16px;
+    margin: 0 7px;
+    color: #272142;
+}
+.follow {
+    text-align: start;
+}
+.social span {
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #272142;
+}
+h2 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 49px;
+    color: #272142;
+}
+h3 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    color: #272142;
+    text-align: start;
+    padding:17px 0 20px 23px;
+}
+.favorite p {
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #272142;
+    text-align: start;
+    padding-left: 23px;
+}
+@media (max-width:1400px) {
+    h3 {
+        padding-left: 0;
+    }
+    .favorite p {
+        padding-left: 0;
+    }
+}
+@media (max-width:991px) {
+    h3, .favorite p, .information h2, .information p, .follow  {
+        text-align: center;
+    }
+    
+}
+

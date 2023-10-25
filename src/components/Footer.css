@@ -1,0 +1,35 @@
+.Footer {
+    background-color: #F9F7FE; 
+    
+}
+.footer-cont {
+    padding: 45px 0 35px 0;
+    margin: 0;
+}
+.social {
+    padding-top: 4px;
+}
+.icon {
+    font-size: 30px;
+    color: #272044;
+    
+}
+@media (max-width:600px) {
+    .icon {
+        font-size: 23px;
+    }
+    .social {
+        padding-top:0;
+    }
+}
+.social-link {
+    font-size: 16px;
+    margin: 0 7px;
+    color: #272142;
+}
+.info {
+    font-family:'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #272142;
+}
